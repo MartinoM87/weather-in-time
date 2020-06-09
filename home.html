@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'/>
+  <title>Weather in Time</title>
+  <link rel='stylesheet' href='style.css'/>
+  <link rel="stylesheet" href="font/Rimouski.css">
+
+</head>
+<body>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body {
+  background-image:
+url('icons/cloud_copy.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+
+<h1>Weather in Time</h1>
+<h2>Clear as Daylight</h2>
+
+  <div class="touch">
+
+   <input id="weath" class="input_search" type="text" placeholder="City Name. e.g Rome, IT">
+   <button id="btnClick" class="btn search"><i class="fa fa-search"></i> Search</button>
+  </div>
+
+
+    <hr class="line" /><br><br>
+<div class="body_style">
+  <div class="notification"></div>
+  <div class="weather-container">
+    <div class="weather-icon">
+      <img src="icons/unknown.png" alt="">
+    </div>
+    <div class="temperature-value">
+      <p>- °<span>C</span></p>
+    </div>
+    <div class="temperature-description">
+      <p>-</p>
+    </div>
+    <div class="location">
+      <p>-</p>
+    </div>
+  </div>
+</div>
+
+<script src="weather.js"></script>
+</<body>
+</html>
